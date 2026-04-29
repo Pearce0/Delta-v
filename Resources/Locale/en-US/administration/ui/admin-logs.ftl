@@ -1,5 +1,6 @@
 ﻿admin-logs-title = Admin Logs Panel
 admin-logs-count = Showing {$showing}/{$total} of {$round}
+admin-logs-export = Export
 admin-logs-pop-out = Pop Out
 
 # Round
@@ -20,7 +21,3 @@ admin-logs-include-non-player = Include Non-players
 admin-logs-search-logs-placeholder = Search Logs
 admin-logs-refresh = Refresh
 admin-logs-next = Next
-
-# DeltaV - Log Sorting
-admin-logs-order-ascending = Asc
-admin-logs-order-descending = Desc

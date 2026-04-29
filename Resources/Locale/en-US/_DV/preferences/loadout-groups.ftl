@@ -71,6 +71,7 @@ loadout-group-chemist-gloves = Chemist gloves
 loadout-group-chemist-shoes = Chemist shoes
 loadout-group-chemist-neck = Chemist neck
 loadout-group-chemist-id = Chemist PDA
+loadout-group-chemist-head = Chemist head
 
 loadout-group-medical-doctor-neck = Medical Doctor neck
 
@@ -101,6 +102,7 @@ loadout-group-mantis-gloves = Mantis gloves
 loadout-group-roboticist-head = Roboticist head
 loadout-group-roboticist-jumpsuit = Roboticist jumpsuit
 loadout-group-roboticist-gloves = Roboticist gloves
+loadout-group-roboticist-glasses = Roboticist glasses
 loadout-group-roboticist-shoes = Roboticist shoes
 loadout-group-roboticist-outerclothing = Roboticist outer clothing
 loadout-group-roboticist-id = Roboticist PDA
@@ -119,12 +121,15 @@ loadout-group-head-of-security-shoes = Head of Security shoes
 
 loadout-group-security-cadet-head = Security Cadet head
 loadout-group-security-neck = Security neck
+loadout-group-security-gloves = Security gloves
+loadout-group-security-eyewear = Security eyewear
 
 loadout-group-brig-medic-head = Corpsman head
 loadout-group-brig-medic-jumpsuit = Corpsman jumpsuit
 loadout-group-brig-medic-back = Corpsman backpack
 loadout-group-brig-medic-neck = Corpsman neck
 loadout-group-brig-medic-outerclothing = Corpsman outer clothing
+loadout-group-corpsman-eyewear = Corpsman eyewear
 
 loadout-group-prison-guard-head = Prison Guard head
 loadout-group-prison-guard-jumpsuit = Prison Guard jumpsuit
@@ -161,6 +166,9 @@ loadout-group-martial-artist-shoes = Martial Artist shoes
 
 loadout-group-gladiator-jumpsuit = Gladiator jumpsuit
 loadout-group-gladiator-outerclothing = Gladiator outer clothing
+
+loadout-group-boxer-jumpsuit = Boxer jumpsuit
+loadout-group-boxer-gloves = Boxer gloves
 
 # Species
 loadout-group-humanoid-silicon = Silicon-friendly survival box

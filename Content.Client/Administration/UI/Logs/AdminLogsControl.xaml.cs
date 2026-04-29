@@ -386,19 +386,30 @@ public sealed partial class AdminLogsControl : Control
         {
             var log = tempLogs[i];
             ref var logRef = ref log; // It didn't like me doing this as one line lmao
+
             var separator = new HSeparator();
             var label = new AdminLogLabel(ref logRef, separator);
             label.Visible = ShouldShowLog(label);
 
-            TotalLogs++;
             if (label.Visible) ShownLogs++;
 
             LogsContainer.AddChild(label);
             LogsContainer.AddChild(separator);
         }
-
-        UpdateCount();
+        UpdateLogs();
     }
+
+    /*
+        var span = CollectionsMarshal.AsSpan(logs);
+        for (var i = 0; i < span.Length; i++)
+        {
+            ref var log = ref span[i];
+            var entry = new AdminLogEntry(ref log);
+            TotalLogs++;
+            LogsContainer.AddChild(entry);
+        }
+        UpdateLogs();
+    */
     // END DEN - Admin Log Sorting
 
     private void ImpactButtonPressed(ButtonEventArgs args)
