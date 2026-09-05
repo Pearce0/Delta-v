@@ -9,11 +9,11 @@
   - type: Lathe
     staticPacks:
     - BorgModulesSyndicateStatic
-    - RoboticsStaticDeltaV
     - RoboticsStatic
     - BorgModulesStatic
     - BorgLimbsStatic
     - BorgModulesResearched
+    - RoboticsEmagStatic
   - type: Machine
     board: SyndieExosuitFabricatorMachineCircuitboard
 
@@ -93,6 +93,8 @@
     - UpgradeKits
     - UpgradeKits_Goob
     - EngineeringHardsuits
+    - AdvancedConstruction
+    - LightingEquipment
   - type: Machine
     board: EngineeringTechFabCircuitboard
   - type: StealTarget
@@ -133,6 +135,7 @@
     - Mining
     - SalvageWeapons
     - SalvageHardsuits
+    - LightingEquipment
   - type: Machine
     board: LogisticsTechFabCircuitboard
   - type: StealTarget
@@ -211,6 +214,7 @@
     - ReportingStatic
     - SimpleElectronicsStatic
     - EVASuit
+    - EpistemicsStaticDeltaV
     dynamicPacks:
     - ScienceEquipment
     - ScienceClothing

@@ -13,6 +13,7 @@
     - BorgModuleScience #until sciborgs are added
 
   defaultModules:
+  - BorgModulePrying
   - BorgModuleTool
   - BorgModuleInflatable
   - BorgModuleArtifact
@@ -47,6 +48,7 @@
     - BorgModuleEngineering
 
   defaultModules:
+  - BorgModulePrying
   - BorgModuleTool
   - BorgModuleConstruction
   - BorgModuleRCD
@@ -97,6 +99,7 @@
     - BorgModuleCargo
 
   defaultModules:
+  - BorgModulePrying
   - BorgModuleTool
   - BorgModuleMining
   - BorgModuleTraversal
@@ -148,6 +151,8 @@
     - BorgModuleJanitor
 
   defaultModules:
+  - BorgModulePrying
+  - BorgModuleTool # DeltaV - Readd Tool Module
   - BorgModuleCleaning
   - BorgModuleCustodial
 
@@ -196,7 +201,9 @@
     - BorgModuleMedical
 
   defaultModules:
-  - BorgModuleChemical
+  - BorgModulePrying
+  - BorgModuleTool # DeltaV - Readd Tool Module
+  - BorgModuleChemicalDV # DeltaV - Was BorgModuleChemical
   - BorgModuleTopicals
   - BorgModuleRescue
 
@@ -217,6 +224,7 @@
     damageContainers:
     - Biological
     - BiologicalMetaphysical # DeltaV - Kitsune
+  - type: ShowTriageIcons # DeltaV - Display Triage Icons
   - type: FabricateCandy # DeltaV - The medical cyborg can generate candies filled with medicine.
     actions:
     - ActionFabricateLollipop
@@ -226,8 +234,6 @@
     fiberColor: fibers-white
   - type: AccessReader # DeltaV - departmental access
     access: [["Command"], ["Robotics"], ["Medical"]]
-  - type: SurgeryTarget # Shitmed
-  - type: Sanitized # Shitmed
 
   # Visual
   inventoryTemplateId: borgDutch
@@ -266,11 +272,17 @@
     - BorgModuleService
 
   defaultModules:
-  - BorgModuleMusique
-  - BorgModuleService
-  - BorgModuleClowning
-  - BorgModuleGardening
-  - BorgModuleHarvesting
+  - BorgModulePrying
+# Start of DeltaV Additions - Rework Service Borg
+#  - BorgModuleMusique
+#  - BorgModuleService
+#  - BorgModuleClowning
+#  - BorgModuleHarvesting
+  - BorgModuleTool # Readd Tool Module
+  - BorgModuleGardeningDV
+  - BorgModuleChef
+  - BorgModuleBartender
+# End of DeltaV Additions - Rework Service Borg
   radioChannels:
   - Science
   - Service
